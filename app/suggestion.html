@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>jQuery Mobile Bootstrap Theme</title>
+    <link rel="stylesheet" href="styles/jquery-mobile.css">
+    <link rel="stylesheet" href="styles/photoswipe.css">
+    <script data-main="scripts/main" src="scripts/simple.js"></script>
+    <script data-main="scripts/main" src="scripts/libs/jquery.js"></script>
+    <script data-main="scripts/main" src="scripts/libs/jquery.mobile-1.3.2.js"></script>
+    <script data-main="scripts/main" src="scripts/app.js"></script>
+    <script data-main="scripts/main" src="scripts/photo.js"></script>
+    <script data-main="scripts/main" src="scripts/codephoto.js"></script>
+    <style type="text/css">
+    img {
+        max-width:300px;
+        max-height:300px;
+        }
+    </style>
+</head>
+<body>
+    <div data-role="page" data-theme="a">
+        <div data-role="header" data-position="inline">
+            <a href="elements.html" data-icon="arrow-l" class="ui-btn-left">Menus</a>
+            <h1>Suggestions</h1>
+        </div>
+        <div data-role="content" data-theme="a">
+            <div id="image-desc" onclick="moveRecipe();">
+
+                <div class="ui-btn">
+                    <h2>Spaghetti Bolognèse</h2>
+                    <br />
+                    <img src="http://fazzfood.com/wp-content/uploads/2014/03/Spaghetti-Bolognese-1.jpg" style="max-width:300px;" />
+                </div>
+
+            </div>
+            <div id="image-desc">
+
+                <div class="ui-btn">
+                    <h2>Emincé de boeuf <br /> aux champignons</h2>
+                    <br />
+                    <img src="http://www.la-recette-de-cuisine.com/main/files/e39467c6551ed0d1f26b85958d8643c2.jpeg" style="max-width:300px;" />
+                </div>
+
+            </div>
+            <div id="image-desc">
+
+                <div class="ui-btn">
+                    <h2>Lasagnes au boeuf</h2>
+                    <br />
+                    <img src="http://p0.pic.akm.vodst.com/22594/22594.recette-les-lasagnes-au-boeuf-maison.w_1280.h_720.m_zoom.c_middle.ts_1381487195..jpg" style="max-width:300px;" />
+                </div>
+
+            </div>
+            <h3>Ou alors, essayez...</h3>
+            <div id="image-desc">
+
+                <div class="ui-btn">
+                    <h2>Tranche au serré <br /> et groseilles rouges</h2>
+                    <br />
+                    <img src="http://www.saison.ch/media/uploads/filer/public/2011/08/15/20110643a.jpg.485x400_q85_crop_upscale.jpg" />
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

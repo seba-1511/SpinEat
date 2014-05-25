@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>jQuery Mobile Bootstrap Theme</title>
+    <link rel="stylesheet" href="styles/jquery-mobile.css">
+    <link rel="stylesheet" href="styles/photoswipe.css">
+    <script data-main="scripts/main" src="scripts/simple.js"></script>
+    <script data-main="scripts/main" src="scripts/libs/jquery.js"></script>
+    <script data-main="scripts/main" src="scripts/libs/jquery.mobile-1.3.2.js"></script>
+    <script data-main="scripts/main" src="scripts/app.js"></script>
+    <script data-main="scripts/main" src="scripts/photo.js"></script>
+    <script data-main="scripts/main" src="scripts/codephoto.js"></script>
+</head>
+<body>
+    <div data-role="page" data-theme="a">
+        <div data-role="header" data-position="inline">
+            <a href="index.html" data-icon="arrow-l" class="ui-btn-left">Menus</a>
+            <h1>Voulez-vous ?</h1>
+        </div>
+        <div data-role="content" data-theme="a">
+            <div id="image-desc">
+
+                <div class="ui-btn">
+                    <h2>Carottes</h2>
+                    <br />
+                    <img src="http://recette1.supertoinette.com/66920/thumb/300/-/66920-carotte.jpg" />
+                </div>
+
+            </div>
+
+            <div class="ui-grid-a">
+                <div class="ui-block-a"><a href="#" class="ui-shadow ui-btn ui-corner-all ui-icon-arrow-l ui-btn-icon-left" onclick="loadNext()">Non</a></div>
+
+                <div class="ui-block-b"><a href="#" data-icon="arrow-r" class="ui-shadow ui-btn ui-corner-all ui-icon-arrow-r ui-btn-icon-right" onclick="loadNext();">Oui</a></div>
+            </div>
+        </div>
+    </div>
+    <div style="display:none;">
+        <img src="http://img.welt.de/img/wirtschaft/crop117702446/3309847306-ci3x2s-w300/Kartoffel.jpg">
+        <img src="http://www.asilatrading.com/wp-content/uploads/2013/05/Spaghetti-al-rafano.jpg">
+        <img src="http://www.bienfaits.fr/files/2010/02/artichaut.jpg">
+        <img src="http://www.latelierdessaveurs-maurice.com/_dynamique/gestionContenus02/zoom/viande-de-boeuf-27.jpg">
+    </div>
+</body>
+</html>
